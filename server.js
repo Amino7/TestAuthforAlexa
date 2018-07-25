@@ -13,7 +13,7 @@ app.get('/alexa',(req,res) =>{
 
 
 // tell the server what port to listen on
-http.createServer( app).listen(process.env.PORT,"0.0.0.0");
+http.createServer( app).listen(process.env.PORT || 8080,"0.0.0.0");
 console.log('Listening on localhost:8080')
 
 //TODO: test module safety with nsp&snyk
