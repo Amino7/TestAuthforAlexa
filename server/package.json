@@ -28,5 +28,10 @@
     "session-file-store": "^1.2.0",
     "underscore": "^1.9.1",
     "uuid": "^3.2.1"
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
 }
