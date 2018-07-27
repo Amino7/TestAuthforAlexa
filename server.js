@@ -6,7 +6,7 @@ const http = require('http');
 const app = express();
 
 app.get('/alexa',(req,res) =>{
-  res.send('kommt noch...');
+  res.send('This was verified by the API.');
   console.log("alexa hat auf mich zugegriffen!")
 })
 
